@@ -2,7 +2,7 @@ const express = require('express');
 const { Pool } = require('pg');
 const cors = require('cors');
 const app = express();
-const port = 3000;
+const port = 3303;
 
 // Middleware
 app.use(cors());
@@ -119,5 +119,5 @@ app.post('/api/jobs', async (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server running at http://13.51.174.197:${port}`);
+    console.log(`Server running at http://54.145.132.159:${port}`);
 });
